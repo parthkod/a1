@@ -1,0 +1,528 @@
+*{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    z-index: 3;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    z-index: 3;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+    margin: auto;
+    width: 84%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    z-index: 123;
+}
+nav .logo{
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    z-index: 45;
+    
+}
+nav .logo .top{
+    color:#ff7878;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+.main{
+    height: 65%;
+    top: 20%;
+    right: 10%;
+    position: absolute;
+}
+#dot{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
+#dotone{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: #ff7878;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
+.pink{
+    background-color: #ff7878;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+}
+.maintext{
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+.boxtwo .maintwo{
+    color: #ff7878;
+    font-size: xx-large;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+.fa-whatsapp-square{
+    color: #fff;
+    position: absolute;
+    left: 37%;
+    top: 60%;
+}
+.mapbutton{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7878;
+    width: 15%;
+    height: 7%;
+    position: absolute;
+    cursor: pointer;
+    top: 84%;
+    left: 15%;
+    align-items: center;
+    outline: none;
+    border: 0;
+    border-radius: 3%;
+}
+.gallery{
+    color: #ff7878;
+    background-color: #fff;
+    width: 15%;
+    height: 7%;
+    position: absolute;
+    top: 84%;
+    right: 17%;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 3%;
+}
+.fa-map-marker-alt{
+    position: absolute;
+    left: 20%;
+    top: 34%;
+}
+.ok{
+    font-size: large;
+}
+.gg{
+    font-size: large;
+}
+.boxone{
+    width: 30%;
+    background-color: #ff7878;
+    height: 50%;
+    border-radius: 3%;
+    position: absolute;
+    top: 25%;
+    left: 9%;
+}
+.boxtwo{
+    width: 30%;
+    background-color: white;
+    height: 50%;
+    border-radius: 3%;
+    position: absolute;
+    top: 25%;
+    right: 9%;
+}
+
+.fa-phone-square-alt{
+    color: #fff;
+    position: absolute;
+    left: 44%;
+    top: 60%;
+}
+.mapbutto{
+    background-color: #fff;
+    color: #ff7878;
+    width: 30%;
+    height: 17%;
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 3%;
+}
+#vb{
+    color: #fff;
+    position: absolute;
+    font-weight: 200;
+    bottom: 4%;
+    right: 31%;
+}
+.q{
+    color: #fff;
+    font-size: xx-large;
+    position: absolute;
+    top: 8%;
+    left: 1%;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+.mis{
+    position: absolute;
+    background-color: #ff7878;
+    width: 7%;
+    height: 5%;
+    left: 16.5%;
+    z-index: 2;
+}
+.op{
+    color: #fff;
+    z-index: 4;
+    opacity: 3;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*about section starts from here */
+
+ #about{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 99%;
+} 
+
+.abouttext{
+    font-family: 'Patrick Hand', cursive;
+    color: #ff7878;
+    position: absolute;
+    top: 1%;
+    right: 47%;
+}
+.aboutimg{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    height: 60%;
+    border: 3px solid #ff7878;
+    border-radius: 3%;
+}
+.boxabout{
+    width: 30%;
+    background-color: #ff7878;
+    height: 50%;
+    border-radius: 3%;
+    position: absolute;
+    top: 25%;
+    left: 9%;
+}
+.bro{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: #fff;
+    position: absolute;
+    top: 7%;
+    left: 13%;
+}
+.maintextt{
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+/*service section starts from here*/
+
+#service{
+    position: absolute;
+    top: 200%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.abouttexttt{
+    font-family: 'Patrick Hand', cursive;
+    color: #ff7878;
+    position: absolute;
+    top: 1%;
+    right: 48%;
+}
+.boxes{
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    right: 10%;
+    height: 60%;
+}
+
+.serviceboxone{
+    height: 50%;
+    position: absolute;
+    width: 20%;
+    background-color: #ff7878;
+    border-radius: 50%;
+}
+.serviceboxtwo{
+    height: 50%;
+    position: absolute;
+    width: 20%;
+    background-color: #ff7878;
+    border-radius: 50%;
+    left: 38%;
+}
+.serviceboxthree{
+    top: 0%;
+    height: 50%;
+    position: absolute;
+    width: 20%;
+    background-color: #ff7878;
+    border-radius: 50%;
+    left: 78%;
+}
+.fa-handshake{
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 28%;
+}
+.fa-glass-martini-alt{
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 34%;
+}
+.fa-gift{
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 36%;
+}
+.one{
+    position: absolute;
+    color: #ff7878;
+    top: 50%;
+    left: 0%;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+.two{
+    position: absolute;
+    color: #ff7878;
+    top: 50%;
+    left: 40%;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+.three{
+    position: absolute;
+    color: #ff7878;
+    top: 50%;
+    left: 77%;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+/*contact section starts from here*/
+#contact{
+    position: absolute;
+    top: 300%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.contacttext{
+    font-family: 'Patrick Hand', cursive;
+    color: #ff7878;
+    position: absolute;
+    top: 1%;
+    right: 45%;
+}
+.vl {
+    border-left: 3px solid #ff7878;
+    height: 80%;
+    position: absolute;
+    bottom: 4%;
+    right: 50%;
+}
+.bone{
+    border: 2px solid #ff7878;
+    width: 35%;
+    height: 50%;
+    border-radius: 3%;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+}
+.btwo{
+    border: 2px solid #ff7878;
+    width: 35%;
+    height: 40%;
+    border-radius: 3%;
+    position: absolute;
+    bottom: 12%;
+    right: 6%;
+}
+.ct{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: #ff7878;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
+.ctt{
+    color: #ff7878;
+    font-size: xx-large;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+.openhours{
+    position: absolute;
+    /* background-color: #ff7878; */
+    height: 40%;
+    width: 40%;
+    left: 6%;
+    bottom: 7%;
+}
+.h{
+    position: absolute;
+    top: 70%;
+    color: #ff7878;
+    /* left: 10%; */
+    font-size: x-large;
+    font-family: 'Great Vibes', cursive;
+}
+.hb{
+    position: absolute;
+    top: 40%;
+    /* left: 10%; */
+    color: #ff7878;
+    font-size: x-large;
+    font-family: 'Great Vibes', cursive;
+}
+footer{
+    top: 400%;
+    left: 0%;
+    position: absolute;
+    background-color: #ff7878;
+    height: 50%;
+    width: 100%;
+}
+.l{
+    border-left: 3px solid #fff;
+    height: 90%;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.aone{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    left: 12%;
+    top: 5%;
+}
+.atwo{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    left: 11%;
+    top: 25%;
+}
+.athree{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    left: 11%;
+    top: 45%;
+}
+.afour{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    left: 10.5%;
+    top: 65%;
+}
+.afive{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    left: 12%;
+    top: 85%;
+}
+
+.llb{
+    color: #fff;
+    font-size: xx-large;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    justify-content: space-between;
+    font-family: 'Great Vibes', cursive;
+}
+h5{
+    color: #fff;
+    position: relative;
+}
+.k{
+    top: 20%;
+    position: absolute;
+    left: 35%;
+}
+.nm{
+    width: 600px;
+    height: 240px;
+    border: 2px solid #fff;
+    border-radius: 0%;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+} 
+.tex{
+    color: #fff;
+    font-size: xx-large;
+    position: absolute;
+    top: -15px;
+    left: 18%;
+    font-family: 'Great Vibes', cursive;
+}
